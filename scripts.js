@@ -31,7 +31,7 @@ document.getElementById("contact-form")?.addEventListener("submit", function (e)
 
   
     // Send to Formspree
-    fetch("https://formspree.io/f/mkgvnzak", {
+    fetch("https://formspree.io/f/mnnbjkae", {
       method: "POST",
       headers: { "Accept": "application/json" },
       body: new FormData(this)
@@ -127,4 +127,5 @@ const FILES_TO_CACHE = [
   "/manifest.json",
   "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 ];
+
 
